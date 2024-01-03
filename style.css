@@ -8,9 +8,13 @@ body{
     align-items: center;
     background-color: #ccc;
 }
-main{
-    filter: grayscale(1);
-}
 h1{
     font-size: 150px;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    filter: grayscale(1);
+}
+.hover{
+    transform: scale(1.2);
+    filter: grayscale(0);
 }
